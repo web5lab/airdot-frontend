@@ -1,0 +1,130 @@
+.maindiv {
+    background-color: rgb(22, 22, 22);
+    width: 370px;
+    height: 220px;
+    padding: 24px 0 0 24px;
+    margin-top: 30px;
+    margin-left: 20px;
+  z-index: 1;
+    margin-right: 15px;
+    border-radius: 16px;
+    box-shadow: 40px black;
+}
+
+.card_info {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+}
+
+.maindiv h2 {
+    width: 250px;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.card-imgsamll {
+    border-radius: 0%;
+    width: 20px;
+    height: 20px;
+
+}
+
+.smallname img {
+    border-radius: 50%;
+}
+
+.smallname {
+    display: flex;
+
+
+}
+
+.smallname p {
+    margin: -4px 0px 0px 5px;
+
+}
+
+.Nav {
+    text-decoration: none;
+    color: white;
+}
+
+.card_cat {
+    margin: 14px 0px 0px 5px;
+    font-size: 17px;
+}
+
+.smallname1 {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.score {
+    width: 50px;
+    margin: 3px 0px 0px 5px;
+    background-color: rgba(251, 191, 36, 1);
+    text-align: center;
+    opacity: 0.4;
+    border-radius: 16px;
+
+}
+
+.smallname1 p {
+    color: black;
+
+
+}
+
+.lastdiv {
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lastflex {
+    display: flex;
+}
+
+.lastflex h5 {
+    margin-left: 5px;
+}
+
+@media (max-width:1025px) {
+    .maindiv {
+        background-color: rgb(22, 22, 22);
+        width: 370px;
+        height: 220px;
+        padding: 20px 0 0 20px;
+        margin-top: 25px;
+        border-radius: 16px;
+        box-shadow: 40px white;
+    }
+
+    .maindiv h2 {
+        font-size: 15px;
+    }
+
+    .lastdiv {
+        width: 300px;
+    }
+
+    .card_cat {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:660px) {
+    .maindiv {
+        background-color: rgb(22, 22, 22);
+        width: 300px;
+        height: 250px;
+        padding: 17px 0 0 17px;
+        margin-top: 20px;
+        border-radius: 16px;
+        box-shadow: 40px;
+    }
+
+}

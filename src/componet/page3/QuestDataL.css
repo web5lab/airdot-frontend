@@ -1,0 +1,73 @@
+.Lmaindiv {
+    color: rgb(58, 57, 57);
+    color: white;
+
+}
+
+.linkbg {
+    padding: 10px 0 20px 20px;
+    width: 700px;
+    height: auto;
+    background: rgba(26, 29, 31, 1);
+    border-radius: 12px;
+}
+
+.navlinktask h3 {
+    font-size: 18px;
+    width: 500px;
+}
+
+.navlinktask {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+}
+
+.divmy {
+    text-align: end;
+    padding: 10px 30px 0 0;
+    font-size: 20px;
+    color: rgba(251, 191, 36, 1);
+}
+
+@media (max-width:1440px) {
+    .linkbg {
+        margin: 30px;
+        width: 500px;
+    }
+}
+
+@media (max-width:998px) {
+    .linkbg {
+        margin: 30px;
+        width: 500px;
+    }
+
+    .Lmaindiv {
+        margin: 30px 0 0 30px;
+    }
+}
+
+
+@media (max-width:630px) {
+
+    .linkbg {
+        text-align: center;
+
+        width: 250px;
+
+    }
+
+    .navlinktask h3 {
+        padding: 2px 0 2px 2px;
+        font-size: 11px;
+
+    }
+
+    .divmy {
+        padding: 0 0 0 -10px;
+    }
+
+}

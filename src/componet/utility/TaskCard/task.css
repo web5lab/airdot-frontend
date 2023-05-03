@@ -1,0 +1,40 @@
+
+
+
+@keyframes slideDown{
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .downslide{
+    -webkit-animation: down 0.2s;
+  }
+
+  .upslide{
+    -webkit-animation: up 0.2s;
+  }
+
+  @keyframes down {
+    0% {
+      height: 60px;
+    }
+    100% {
+      height: 150px;
+    }
+  }
+
+  
+  @keyframes up {
+    0% {
+      height: 150px;
+    }
+    100% {
+      height: 60px;
+    }
+  }

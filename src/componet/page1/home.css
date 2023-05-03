@@ -1,0 +1,283 @@
+.homediv {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  /* place-items: center; */
+}
+
+.leftsec{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+.Hometextdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-content: space-between;
+  z-index: 1;
+}
+
+.rightbtnsection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.imgEdiv1 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.imgEdiv {
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+
+}
+
+.maintext2 {
+  text-align: center;
+
+  font-size: 25px;
+  color: white;
+}
+
+.maintext {
+  text-align: center;
+  margin: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.but2 {
+  font-size: 20px;
+  margin-left: 25px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 12px;
+  background-color: rgb(32, 32, 188);
+  color: white;
+  border: 2px solid #adc9ff;
+}
+
+.but1 {
+  font-size: 20px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 12px;
+  background-color: rgb(130, 130, 163);
+  color: white;
+  border: 2px solid #adc9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.butdiv {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homediv1 {
+  width: 100%;
+  height: 600vh;
+  background-color: rgb(6, 2, 54);
+}
+
+@media (max-width: 998px) {
+  .butdiv{
+    width: 50%; 
+      }
+  .maintext {
+    font-size: 30px;
+  }
+  .Hometextdiv{ 
+     
+    align-items: center; 
+   }
+   .homediv{
+    height: 40vh;
+   }
+  .maintext2 {
+    font-size: 20px;
+    width: auto;
+  }
+
+  
+}
+
+@media (max-width: 620px) {
+  .maintext {
+    font-size: 20px;
+  }
+
+  .maintext2 {
+    font-size: 10px;
+  }
+
+  .but1 {
+    font-size: 10px;
+  }
+
+  .but2 {
+    font-size: 10px;
+  }
+
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgEdiv{
+    width: 120%;
+    height: max-content;
+  }
+  .Hometextdiv{
+    justify-content: space-between;
+    gap: 3rem;
+    padding-left: 2rem;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .homediv{
+    width: max-content;
+    height: max-content;
+  }
+  .butdiv{
+width: 50%; 
+  }
+  .rightbtnsection{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  
+}
+@media (max-width: 400px) {
+  .imgEdiv{
+    width: 120%;
+    height: max-content;
+  }
+  .Hometextdiv{
+    justify-content: space-between;
+    gap: 3rem;
+    padding-left: 2rem;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .homediv{
+    width: max-content;
+    height: max-content;
+  }
+  .butdiv{
+width: 50%; 
+  }
+  .rightbtnsection{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  
+}
+@media (max-width: 1024px) {
+  
+  .firstimg{
+    height: 100vh;
+  }
+  
+}
+@media (max-width: 912px) {
+  
+  .firstimg{
+    height: 105vh !important;
+    width: 105vw !important;
+  }
+  .Hometextdiv{ 
+    padding-left: 2rem;
+    align-items: center; 
+    height: 100vh;
+   }
+   .homediv{
+    height: 50vh;
+   }
+  
+}
+@media (max-width: 821px) {
+  
+  .firstimg{
+    height: 105vh !important;
+    width: 105vw !important;
+  }
+  .Hometextdiv{ 
+    padding-left: 2rem;
+    align-items: center; 
+    height: 100vh;
+   }
+   .homediv{
+    height: 50vh;
+   }
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  .Hometextdiv{ 
+    padding-left: 2rem;
+    align-items: center; 
+   }
+   .homediv{
+    height: 50vh;
+   }
+  
+}
+@media (max-width: 1444px) {
+  .Hometextdiv{ 
+    padding-left: 2rem;
+    align-items: center; 
+   }
+   .homediv{
+    height: 60vw;
+   }
+  
+}
+@media (max-width: 541px) {
+  
+  .firstimg{
+    height: 105vw ;
+    width: 100% !important;
+    background-size: cover;
+  }
+   
+  .Hometextdiv{ 
+    padding-left: 2rem;
+    align-items: center; 
+    height: 100vh;
+   }
+   .maintext{
+    font-size: 28px;
+
+   }
+   .homediv{
+    height: 90vh;
+    width: 100% !important;
+   }
+  
+}
+
+/* page2 */

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e50926f3.css",
+    "main.js": "/static/js/main.00cb2d7f.js",
+    "static/media/4.png.png.png": "/static/media/4.png.png.c40d92c7465272e5082d.png",
+    "static/media/img3.png": "/static/media/img3.dfc9a53fc56a3efa4923.png",
+    "static/media/img2.png": "/static/media/img2.4f28ce5d45d9b7df59a3.png",
+    "static/media/framer.png": "/static/media/framer.7c5a647764027bdf9d5e.png",
+    "static/media/img4.png": "/static/media/img4.d103f60defd6819f2c4a.png",
+    "static/media/replace6.png": "/static/media/replace6.72eec78e43f82c6f6e07.png",
+    "static/media/img1.png": "/static/media/img1.0147fc4a701aee3fd957.png",
+    "static/media/Home.png": "/static/media/Home.a7052899bfdc2f81bab2.png",
+    "static/media/image 7.png": "/static/media/image 7.158014aecc29d6d59e1c.png",
+    "static/media/strtq.png": "/static/media/strtq.7e368038be73e24f2c51.png",
+    "static/media/snow.png": "/static/media/snow.e622c4e49336090855ea.png",
+    "static/media/cardlow.png": "/static/media/cardlow.b84006c62a117a9b65c0.png",
+    "static/media/signupq.png": "/static/media/signupq.5fef41e7192e604af8c3.png",
+    "static/media/div-1.png": "/static/media/div-1.06a2469a052d3179d537.png",
+    "index.html": "/index.html",
+    "main.e50926f3.css.map": "/static/css/main.e50926f3.css.map",
+    "main.00cb2d7f.js.map": "/static/js/main.00cb2d7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e50926f3.css",
+    "static/js/main.00cb2d7f.js"
+  ]
+}

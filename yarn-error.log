@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\theya\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\MinGW\bin;C:\Users\theya\AppData\Local\GitHubDesktop\bin;C:\Users\theya\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\theya\AppData\Local\Programs\Python\Python39\;C:\Users\theya\AppData\Local\Microsoft\WindowsApps;C:\Users\theya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\theya\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\theya\AppData\Local\JpegminiPro3\;C:\Users\theya\AppData\Local\Android\Sdk\platform-tools;C:\Users\theya\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\theya\AppData\Local\Yarn\Cache\v6\npm-framer-motion-10.11.6-1c59f9e2dcfa379f5dd1076eebdf8b11b7c62f80-integrity\node_modules\framer-motion\dist\es\utils\use-force-update.mjs' -> 'C:\Users\theya\OneDrive\Desktop\Git clone\react\frontend-quest-lite\node_modules\framer-motion\dist\es\utils\use-force-update.mjs'
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@chakra-ui/react": "^2.5.2",
+      "@dynamic-labs/sdk-react": "^0.15.3",
+      "@emotion/react": "^11.10.6",
+      "@emotion/styled": "^11.10.6",
+      "@reduxjs/toolkit": "^1.9.3",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^1.3.4",
+      "framer-motion": "^10.6.0",
+      "metamask-react": "^2.6.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.8.0",
+      "react-redux": "^8.0.5",
+      "react-router-dom": "^6.8.2",
+      "react-scripts": "5.0.1",
+      "react-twitter-auth": "^0.0.13",
+      "redux": "^4.2.1",
+      "redux-thunk": "^2.4.2",
+      "web-vitals": "^2.1.4",
+      "web3": "^1.8.2"
+    },
+    "scripts": {
+      "start": "react-scripts --max_old_space_size=4096 start ",
+      "build": "react-scripts --max_old_space_size=4096 build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
